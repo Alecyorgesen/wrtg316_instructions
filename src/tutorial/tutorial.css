@@ -1,0 +1,12 @@
+.button {
+    background: #7a9c00;
+    outline: #7a9c00;
+}
+
+  html, .body {
+    height: 100%;
+}
+
+main {
+    flex: 1; /* This will ensure the main content takes up the remaining space */
+}

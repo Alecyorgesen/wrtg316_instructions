@@ -1,0 +1,10 @@
+.background-grey {
+    background-color: hsl(228, 16%, 63%);
+  }
+
+.background-light-grey {
+  background-color: hsl(0, 0%, 66%);
+}
+/* html, .body {
+    background-color: #e6e6e6;
+} */
