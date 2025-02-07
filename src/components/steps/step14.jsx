@@ -7,16 +7,16 @@ export default function Step14() {
         <div className="col-8">
           <div className="step-container">
             <li>
-              Compile your fully-functional exponent calculator. Repeat{" "}
-              <a href="#step6">Step #6</a> to save all the code you have written
-              and <a href="#step7">Step #7</a> to compile your program and run
-              it, providing 2 numbers separated by a space. The computer will
-              calculate and return the correct answer almost instantaneously
-              with your program. See the image in the{" "}
-              <a href="#comments">Comments, Notes, and Examples</a> section for
-              an example. Run "./exponentcalculator" as many times as desired
-              for new calculations.
+              Now we will need to return the calculated answer after the "for()"
+              loop has concluded. This will go after the &#125; of the "for()"
+              loop but before the last &#125; of your program. Use the
+              "printf();" command to tell the computer to print our final answer
+              variable for us to see. Place the following message inside the
+              parentheses of "printf()":
             </li>
+            <pre className="codeBlock">
+              <code>printf("The answer = %d\n", answer);</code>
+            </pre>
           </div>
         </div>
         <div className="col-2">

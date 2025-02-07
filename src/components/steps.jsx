@@ -18,10 +18,13 @@ import Step5 from "./steps/step5";
 import Step6 from "./steps/step6";
 import Step7 from "./steps/step7";
 import Step8 from "./steps/step8";
-import Step9And10 from "./steps/step9and10";
+import Step9 from "./steps/step9";
+import Step10 from "./steps/step10";
 import Step11 from "./steps/step11";
-import Step12And13 from "./steps/step12and13";
+import Step12 from "./steps/step12";
+import Step13 from "./steps/step13"
 import Step14 from "./steps/step14";
+import Step15 from "./steps/step15";
 
 export default function Steps() {
   return (
@@ -38,10 +41,13 @@ export default function Steps() {
         <Step6 />
         <Step7 />
         <Step8 />
-        <Step9And10 />
+        <Step9 />
+        <Step10 />
         <Step11 />
-        <Step12And13 />
+        <Step12 />
+        <Step13 />
         <Step14 />
+        <Step15 />
       </ol>
     </div>
   );

@@ -6,8 +6,8 @@
   margin-bottom: 2rem;
   padding: 1rem 0;
   border-top: 1px solid #ccc;
-  margin-top: 200px;
-  margin-bottom: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 /* Remove top border from first row */
@@ -24,6 +24,7 @@
 .col-8 {
   flex: 0 0 50%;
   order: 1;
+  padding-top: 100px;
 }
 
 /* Right column for images */
@@ -35,10 +36,6 @@
   order: 2;
 }
 
-/* Step container */
-.step-container {
-  margin-bottom: 1rem;
-}
 
 /* Remove default list styling */
 ol {
