@@ -27,6 +27,10 @@
   padding-top: 100px;
 }
 
+.col-8.checkpoint-content {
+  padding-top: 0;
+}
+
 /* Right column for images */
 .col-2 {
   flex: 0 0 45%;

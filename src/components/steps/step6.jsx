@@ -5,7 +5,7 @@ export default function Step6() {
     <>
       <div className="row">
         <h2 id="step6">CHECKPOINT #1</h2>
-        <div className="col-8">
+        <div className="col-8 checkpoint-content">
           <div className="step-container">
             <li>
               We will now "compile" our program, meaning that we will tell the
