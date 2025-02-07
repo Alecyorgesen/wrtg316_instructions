@@ -17,12 +17,12 @@ export default function Troubleshooting() {
           </a>
         </p>
         <p>- Apple-based Computers:</p>
-        <p>
+        <p className="substep">
           1. If you have not yet installed Homebrew, the dependency fetcher, run
           the following command in your terminal: /bin/bash -c "$(curl -fsSL
           https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
         </p>
-        <p>
+        <p className="substep">
           2. With Homebrew installed, simply run the following command in your
           terminal: brew install gcc
         </p>
