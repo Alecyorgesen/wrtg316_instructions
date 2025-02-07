@@ -52,9 +52,12 @@ export default function App() {
                       <div className="step-container">
                         <li>To begin creating our mini-program, hold the 'command key' and press the spacebar. This will open a search bar to find the application. We will be using Terminal. Once you have found it, double-click on it. Doing so will open the application with the logo circled in the image below and a small window to type into. This is your computer's terminal, from which you can run commands and start programs.</li>
                       </div>
+                      <img src="macKeyboard.png" alt="keyboard" />
+                      <p className="m-5">The result should look like this:</p>
+
+
                     </div>
                     <div className="col-2">
-                      <img src="macKeyboard.png" alt="keyboard" />
                       <img src="terminal.png" alt="terminal" />
                       <img src="terminal2.png" alt="terminal" />
                     </div>
@@ -63,7 +66,6 @@ export default function App() {
                   <div className="row">
                     <div className="col-8">
                       <div className="step-container">
-                        <p className="m-5">The result should look like this:</p>
                         <p className="m-5">For Windows users, open Git Bash, the terminal that you will use instead of Powershell, the default terminal for Windows. If you have not installed Git Bash, please refer to the links above. After it is installed you may press the Windows key, or click the search bar at the bottom left, and type "Git Bash". Then select the Git Bash application to open the Terminal. You will use this Terminal to create and edit a file, as well as run a program.</p>
                       </div>
                     </div>
