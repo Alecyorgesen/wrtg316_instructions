@@ -52,14 +52,14 @@ export default function App() {
                       <div className="step-container">
                         <li>To begin creating our mini-program, hold the 'command key' and press the spacebar. This will open a search bar to find the application. We will be using Terminal. Once you have found it, double-click on it. Doing so will open the application with the logo circled in the image below and a small window to type into. This is your computer's terminal, from which you can run commands and start programs.</li>
                       </div>
-                      <img src="macKeyboard.png" alt="keyboard" />
+                      <img src="macKeyboard_step1.png" alt="keyboard" />
                       <p className="m-5">The result should look like this:</p>
 
 
                     </div>
                     <div className="col-2">
-                      <img src="terminal.png" alt="terminal" />
-                      <img src="terminal2.png" alt="terminal" />
+                      <img src="apple_terminal_step1.png" alt="terminal" />
+                      <img src="apple_terminal_step1(2).png" alt="terminal" />
                     </div>
                   </div>
 
@@ -70,8 +70,8 @@ export default function App() {
                       </div>
                     </div>
                     <div className="col-2">
-                      <img src="gitBash.png" alt="Git Bash" />
-                      <img src="terminal3.png" alt="Git Bash Terminal" />
+                      <img src="powershell_step1.png" alt="Git Bash" />
+                      <img src="wsl_step1.png" alt="Git Bash Terminal" />
                     </div>
                   </div>
 
@@ -82,8 +82,8 @@ export default function App() {
                       </div>
                     </div>
                     <div className="col-2">
-                      <img src="nano1.png" alt="terminal" />
-                      <img src="nano2.png" alt="terminal" />
+                      <img src="nano_step2.png" alt="terminal" />
+                      <img src="nano_step3.png" alt="terminal" />
                     </div>
                   </div>
 
@@ -98,7 +98,7 @@ export default function App() {
                       </div>
                     </div>
                     <div className="col-2">
-                      <img src="nano3.png" alt="terminal" />
+                      <img src="nano_step4.png" alt="terminal" />
                     </div>
                   </div>
 
@@ -112,7 +112,7 @@ export default function App() {
                       </div>
                     </div>
                     <div className="col-2">
-                      <img src="nano4.png" alt="terminal" />
+                      <img src="nano_step5.png" alt="terminal" />
                     </div>
                   </div>
 
