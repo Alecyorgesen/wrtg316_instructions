@@ -1,10 +1,69 @@
-.background-grey {
-    background-color: hsl(228, 16%, 63%);
-  }
-
-.background-light-grey {
-  background-color: hsl(0, 0%, 66%);
+/* Container styling */
+.row {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem 0;
+  border-top: 1px solid #ccc;
+  margin-top: 200px;
+  margin-bottom: 200px;
 }
-/* html, .body {
-    background-color: #e6e6e6;
-} */
+
+/* Remove top border from first row */
+#steps .row:first-child {
+  border-top: none;
+}
+
+/* Add bottom border to last row */
+#steps .row:last-child {
+  border-bottom: 1px solid #ccc;
+}
+
+/* Left column for steps */
+.col-8 {
+  flex: 0 0 60%;
+  order: 1;
+}
+
+/* Right column for images */
+.col-2 {
+  flex: 0 0 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  order: 2;
+}
+
+/* Step container */
+.step-container {
+  margin-bottom: 1rem;
+}
+
+#step6 {
+  
+}
+/* Remove default list styling */
+ol {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+/* Image styling */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+  
+  .col-8, .col-2 {
+    flex: 0 0 100%;
+  }
+}
