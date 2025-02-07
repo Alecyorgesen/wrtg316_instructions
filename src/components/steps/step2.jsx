@@ -10,14 +10,6 @@ export default function Step2() {
             computers will function the same. Where the cursor is blinking,
             enter the following command:
             <pre className="codeBlock">
-              <code>cd Desktop</code>
-              {/* [Note: My computer would not work with this because Desktop is not
-            in the starting directory when opening the command prompt. You would
-            first need to navigate into OneDrive, so we should probably change
-            this to something that works universally.] */}
-            </pre>
-            Then, type the following:
-            <pre className="codeBlock">
               <code>nano exponentcalculator.c</code>
             </pre>
             Make sure the file name ends with <code>'.c'</code>. Once typed,
