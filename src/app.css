@@ -55,6 +55,24 @@ img {
   margin-bottom: 1rem;
 }
 
+#troubleshooting li {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.substep {
+  margin-left: 20px;
+}
+
+#troubleshooting p {
+  font-weight: normal;
+  margin-left: 10px;
+}
+
+#troubleshooting .substep{
+  margin-left: 40px;
+}
+
 /* Responsive layout */
 @media (max-width: 768px) {
   .row {
