@@ -73,18 +73,18 @@ export default function App() {
                   <img src="nano1.png" alt="terminal" width={400} />
                   <img src="nano2.png" alt="terminal" width={400} />
                   <li>We now can type in some code to create our exponent calculator. In order to signal to the computer that this is code for a program and not simply text, copy the following lines and paste them into the nano text editor. </li>
-                  <p>#include &lt;stdio.h&gt;</p>
-                  <p>int main()&#123;</p>
-                  <p> </p>
-                  <p>&#125;</p>
+                  <p className="background-light-grey">#include &lt;stdio.h&gt;</p>
+                  <p className="background-light-grey">int main()&#123;</p>
+                  <p className="background-light-grey"> </p>
+                  <p className="background-light-grey">&#125;</p>
                   <p>Note: In order to move up and down in your text file, you must use the arrow keys to go line by line, and in order to create new lines, you must hit ‘return’. All of the code we will type after this step will be inside the ‘&#123;‘ after main() and the ‘&#125;’ at the end of the file. Your text file should now look like this:</p>
                   <img src="nano3.png" alt="terminal" width={800} />
                   <li>
                     We need to create some variables that will store information for our program, just as they do in math. Create a variable for the base (main number), a variable for the exponent, and a variable for the final answer, set to equal the number 1. Each hold integers (int), so they will look like this:
                   </li>
-                  <p className="m-1">int base;</p>
-                  <p className="m-1">int exponent;</p>
-                  <p className="m-1">int answer = 1;</p>
+                  <p className="m-1 background-light-grey">int base;</p>
+                  <p className="m-1 background-light-grey">int exponent;</p>
+                  <p className="m-1 background-light-grey">int answer = 1;</p>
                   <p>It is important to note that each line of code ends with a semicolon (;) to help the computer know when that line of code is done. The names of these variables are after the word ‘int,’ and you may call the variables anything you would like. It is best practice to name them related to the job they will help perform and the information they store. Your file should look like this:</p>
                   <img src="nano4.png" alt="terminal" width={800} />
                   <li>We will now instruct the computer to print something out for us to see using the command printf(); and tell the computer to get some information from us, the user, using the command scanf();. Insert the following command into the file:</li>
