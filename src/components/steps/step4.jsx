@@ -13,12 +13,15 @@ export default function Step4() {
               for the final answer, set to equal the number 1. Each hold
               integers (int), so they will look like this:
             </li>
-            <p className="m-1 background-light-grey">int base;</p>
-            <p className="m-1 background-light-grey">int exponent;</p>
-            <p className="m-1 background-light-grey">int answer = 1;</p>
+            <pre className="codeBlock">
+              <code>int base;</code> <br />
+              <code>int exponent;</code> <br />
+              <code>int answer = 1;</code>
+            </pre>
           </div>
         </div>
         <div className="col-2">
+          {/* Picture seems to have stuff from the following step */}
           <img src="nano4.png" alt="terminal" />
         </div>
       </div>

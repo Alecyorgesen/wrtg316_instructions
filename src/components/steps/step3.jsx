@@ -10,12 +10,16 @@ export default function Step3() {
               We now can type in some code to create our exponent calculator. In
               order to signal to the computer that this is code for a program
               and not simply text, copy the following lines and paste them into
-              the nano text editor.
+              the nano text editor:
             </li>
-            <p className="background-light-grey">#include &lt;stdio.h&gt;</p>
-            <p className="background-light-grey">int main()&#123;</p>
-            <p className="background-light-grey"> </p>
-            <p className="background-light-grey">&#125;</p>
+            <pre className="codeBlock">
+              <code>#include &lt;stdio.h&gt;</code>
+              <br />
+              <code>int main()&#123;</code>
+              <br />
+              <br />
+              <code>&#125;</code>
+            </pre>
           </div>
         </div>
         <div className="col-2">

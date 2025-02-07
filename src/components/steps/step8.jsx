@@ -6,14 +6,16 @@ export default function Step8() {
       <div className="row">
         <div className="col-8">
           <div className="step-container">
+            {/* Not sure if we were already going to fix this but it seems confusing to run the 
+            program right before and then not say what would happen*/}
             <li>
-              Go back into your program and finish creating our exponent
-              calculator. Type the earlier prompt back into the Terminal, and
-              hit 'Return':
+              Now lets go back into the program and finish creating our exponent
+              calculator. To do that, type the earlier prompt back into the
+              Terminal, and hit 'Return':
             </li>
-            <p className="background-light-grey m-3">
-              nano exponentcalculator.c
-            </p>
+            <pre className="codeBlock">
+              <code>nano exponentcalculator.c</code>
+            </pre>
           </div>
         </div>
         <div className="col-2">

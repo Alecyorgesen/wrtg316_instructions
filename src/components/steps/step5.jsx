@@ -12,13 +12,14 @@ export default function Step5() {
               information from us, the user, using the command scanf();. Insert
               the following command into the file:
             </li>
-            <p className="background-light-grey">
-              printf("\nProvide 2 numbers separated by a space.\nThe first is
-              the base, and the second is the exponent: ");
-            </p>
-            <p className="background-light-grey">
-              scanf("%d %d", &base, &exponent);
-            </p>
+            <pre className="codeBlock">
+              <code>
+                printf("\nProvide 2 numbers separated by a space.\nThe first is
+                the base, and the second is the exponent: ");
+              </code>
+              <br />
+              <code>scanf("%d %d", &base, &exponent);</code>
+            </pre>
           </div>
         </div>
         <div className="col-2">

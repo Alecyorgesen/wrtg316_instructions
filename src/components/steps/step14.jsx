@@ -12,8 +12,10 @@ export default function Step14() {
               and <a href="#step7">Step #7</a> to compile your program and run
               it, providing 2 numbers separated by a space. The computer will
               calculate and return the correct answer almost instantaneously
-              with your program. Run "./exponentcalculator" as many times as
-              desired for new calculations.
+              with your program. See the image in the{" "}
+              <a href="#comments">Comments, Notes, and Examples</a> section for
+              an example. Run "./exponentcalculator" as many times as desired
+              for new calculations.
             </li>
           </div>
         </div>
