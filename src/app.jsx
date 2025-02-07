@@ -56,29 +56,29 @@ export default function App() {
                   <li>To begin creating our mini-program, hold the ‘command key’ and press the spacebar. This will open a search bar to find the application. We will be using Terminal. Once you have found it, double-click on it. Doing so will open the application with the logo circled in the image below and a small window to type into. This is your computer’s terminal, from which you can run commands and start programs.
                   </li>
 
-                  <img src="macKeyboard.png" alt="keyboard" width={400} />
-                  <img src="terminal.png" alt="terminal" width={400} />
+                  <img src="macKeyboard_step1.png" alt="keyboard" width={400} />
+                  <img src="apple_terminal_step1.png" alt="terminal" width={400} />
                   <p className="m-5">
                     The result should look like this:
                   </p>
-                  <img src="terminal2.png" alt="terminal" width={400} />
+                  <img src="apple_terminal_step1(2).png" alt="terminal" width={400} />
                   <p className="m-5">
                   For Windows users, open Git Bash, the terminal that you will use instead of Powershell, the default terminal for Windows. If you have not installed Git Bash, please refer to the links above. After it is installed you may press the Windows key, or click the search bar at the bottom left, and type “Git Bash”. Then select the Git Bash application to open the Terminal. You will use this Terminal to create and edit a file, as well as run a program.
                   </p>
-                  <img src="gitBash.png" alt="Git Bash" width={400} />
-                  <img src="terminal3.png" alt="Git Bash Terminal" width={400} />
+                  <img src="powershell_step1.png" alt="Powershell" width={400} />
+                  <img src="/public/wsl_step1.png" alt="WSL Terminal" width={400} />
                   <li className="m-5">
                   From this point forward, Apple-based computers and Windows-based computers will function the same. Where the cursor is blinking, enter the command “cd Desktop”. Then, type the following: nano exponentcalculator.c. Make sure the name of the file ends with ‘.c’ Once you have typed that, hit the “return” button on your keyboard. This will open a text editor to the new file with the name you just gave it, and your terminal should look similar to the images below.
                   </li>
-                  <img src="nano1.png" alt="terminal" width={400} />
-                  <img src="nano2.png" alt="terminal" width={400} />
+                  <img src="nano_step2.png" alt="terminal" width={400} />
+                  <img src="nano_step3.png" alt="terminal" width={400} />
                   <li>We now can type in some code to create our exponent calculator. In order to signal to the computer that this is code for a program and not simply text, copy the following lines and paste them into the nano text editor. </li>
                   <p className="background-light-grey">#include &lt;stdio.h&gt;</p>
                   <p className="background-light-grey">int main()&#123;</p>
                   <p className="background-light-grey"> </p>
                   <p className="background-light-grey">&#125;</p>
                   <p>Note: In order to move up and down in your text file, you must use the arrow keys to go line by line, and in order to create new lines, you must hit ‘return’. All of the code we will type after this step will be inside the ‘&#123;‘ after main() and the ‘&#125;’ at the end of the file. Your text file should now look like this:</p>
-                  <img src="nano3.png" alt="terminal" width={800} />
+                  <img src="nano_step4.png" alt="terminal" width={800} />
                   <li>
                     We need to create some variables that will store information for our program, just as they do in math. Create a variable for the base (main number), a variable for the exponent, and a variable for the final answer, set to equal the number 1. Each hold integers (int), so they will look like this:
                   </li>
@@ -86,7 +86,7 @@ export default function App() {
                   <p className="m-1 background-light-grey">int exponent;</p>
                   <p className="m-1 background-light-grey">int answer = 1;</p>
                   <p>It is important to note that each line of code ends with a semicolon (;) to help the computer know when that line of code is done. The names of these variables are after the word ‘int,’ and you may call the variables anything you would like. It is best practice to name them related to the job they will help perform and the information they store. Your file should look like this:</p>
-                  <img src="nano4.png" alt="terminal" width={800} />
+                  <img src="nano_step5.png" alt="terminal" width={800} />
                   <li>We will now instruct the computer to print something out for us to see using the command printf(); and tell the computer to get some information from us, the user, using the command scanf();. Insert the following command into the file:</li>
                   <p className="background-light-grey">printf("\nProvide 2 numbers separated by a space.\nThe first is the base, and the second is the exponent: ");</p>
                   <p className="background-light-grey">scanf("%d %d", &base, &exponent);</p>
