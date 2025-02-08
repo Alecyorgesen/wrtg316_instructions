@@ -7,7 +7,7 @@ export default function WindowsTutorial() {
         <div className="col-8">
           <div className="step-container">
             <p className="m-5">
-              For Windows users, open Git Bash, the terminal that you will use
+              (For Windows-based computers) Open Git Bash, the terminal that you will use
               instead of Powershell, the default terminal for Windows. If you
               have not installed Git Bash, please refer to the links above.
               After it is installed you may press the Windows key, or click the

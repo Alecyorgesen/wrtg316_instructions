@@ -7,8 +7,8 @@ export default function MacTutorial() {
         <div className="col-8">
           <div className="step-container">
             <li>
-              To begin creating our mini-program, hold the 'command key' and
-              press the spacebar. This will open a search bar to find the
+              (For Apple-based computers) Hold the 'command key' and
+              press the spacebar to begin creating our mini-program. This will open a search bar to find the
               application. We will be using Terminal. Once you have found it,
               double-click on it. Doing so will open the application with the
               logo circled in the image below and a small window to type into.
