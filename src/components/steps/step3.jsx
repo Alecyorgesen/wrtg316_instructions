@@ -23,7 +23,7 @@ export default function Step3() {
           </div>
         </div>
         <div className="col-2">
-          <img src="nano3.png" alt="terminal" />
+          <img src="starternano.png" alt="terminal" />
         </div>
       </div>
     </>

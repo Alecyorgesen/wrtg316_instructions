@@ -10,6 +10,17 @@
   margin-bottom: 50px;
 }
 
+.subrow {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem 0;
+  border-top: 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 /* Remove top border from first row */
 #steps .row:first-child {
   border-top: none;

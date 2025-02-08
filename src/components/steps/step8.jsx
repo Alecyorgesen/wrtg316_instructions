@@ -6,11 +6,9 @@ export default function Step8() {
       <div className="row">
         <div className="col-8">
           <div className="step-container">
-            {/* Not sure if we were already going to fix this but it seems confusing to run the 
-            program right before and then not say what would happen*/}
             <li>
-              Now lets go back into the program and finish creating our exponent
-              calculator. To do that, type the earlier prompt back into the
+              Go back into the program and finish creating our exponent
+              calculator. Type this prompt from earlier back into the
               Terminal, and hit 'Return':
             </li>
             <pre className="codeBlock">
@@ -19,7 +17,7 @@ export default function Step8() {
           </div>
         </div>
         <div className="col-2">
-          <img className="m-5" src="nano5.png" alt="nano" />
+          <img src="firstcommand.png" alt="nano" />
         </div>
       </div>
     </>

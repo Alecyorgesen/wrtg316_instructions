@@ -20,7 +20,7 @@ export default function Step14() {
           </div>
         </div>
         <div className="col-2">
-          <img className="m-5" src="nano7.png" alt="nano" />
+          <img src="completedprog.png" alt="nano" />
         </div>
       </div>
     </>

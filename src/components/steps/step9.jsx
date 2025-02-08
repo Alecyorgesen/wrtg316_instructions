@@ -9,9 +9,8 @@ export default function Step9() {
             <li>
               Now that we are back into our program, we will create a loop that
               will multiply the number we gave as the base by itself the number
-              of times we gave as the exponent. To create this, beneath our
-              printf(); and scanf(); lines, we will start the beginning of our
-              for loop.
+              of times we gave as the exponent. To create this, beneath our <code> printf();</code> and <code>scanf();</code> lines, we will start the beginning of our 
+              <code> for()</code> loop.
             </li>
             <pre className="codeBlock">
               <code>
@@ -23,8 +22,7 @@ export default function Step9() {
           </div>
         </div>
         <div className="col-2">
-          {/*Pic has final for loop code, so maybe we should change that*/}
-          <img className="m-5" src="nano6.png" alt="nano" />
+          <img src="emptyfor.png" alt="nano" />
         </div>
       </div>
     </>

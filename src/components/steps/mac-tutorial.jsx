@@ -15,13 +15,20 @@ export default function MacTutorial() {
               This is your computer's terminal, from which you can run commands
               and start programs.
             </li>
+            <br></br>
           </div>
-          <img src="macKeyboard.png" alt="keyboard" />
+          <img src="applefindterminal.png" alt="keyboard" />
+        </div>
+        <div className="col-2">
+          <img src="terminalsearch.png" alt="terminal" />
+        </div>
+      </div>
+      <div className="subrow">
+        <div className="col-8">
           <p className="m-5">The result should look like this:</p>
         </div>
         <div className="col-2">
-          <img src="terminal.png" alt="terminal" />
-          <img src="terminal2.png" alt="terminal" />
+          <img src="blankterminal.png" alt="terminal" />
         </div>
       </div>
     </>

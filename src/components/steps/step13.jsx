@@ -8,14 +8,12 @@ export default function Step13() {
           <div className="step-container">
             <li>
               Finally, we will implement the actual multiplication to happen at
-              each step of the "for()" loop inside the &#123; &#125; by making
+              each step of the <code>for()</code> loop inside the <code>&#123; &#125;</code> by making
               the value of your variable answer to the answer variable
-              multiplied by your base variable. Multiplication is represented by
-              * in programs, so we will write this as follows:
+              multiplied by your base variable. Multiplication is represented by <code>*</code> in programs, so we will write this as follows:
               <pre className="codeBlock">
                 <code>answer = answer * base;</code>
               </pre>
-              {/*Added this to make it clearer what the whole loop looked like*/}
               Putting that in our for loop will look like the following:
               <pre className="codeBlock">
                 <code>
@@ -31,7 +29,7 @@ export default function Step13() {
           </div>
         </div>
         <div className="col-2">
-          <img className="m-5" src="nano7.png" alt="nano" />
+          <img src="multiply.png" alt="nano" />
         </div>
       </div>
     </>

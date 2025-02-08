@@ -10,14 +10,17 @@ export default function Step6() {
             <li>
               We will now "compile" our program, meaning that we will tell the
               computer to prepare to run our new program! In order to save all
-              that we typed in nano, press the keys in the following order: hold
-              the "control ^" key and press 'X', press the 'Y' key, and then hit
-              'Return' to save what we typed.
+              that we typed in nano, press the keys in the following order: 
+              <ol className="m-5">
+                <li> Hold the "control ^" key and press 'X' </li>
+                <li> Let go of those keys, and press the 'Y' key </li>
+                <li> Let go of 'Y' and press 'Return' to save what all the code we typed </li>
+              </ol>
             </li>
           </div>
         </div>
         <div className="col-2">
-          <img src="keyboard1.png" alt="keyboard" />
+          <img src="saveexit.png" alt="keyboard" />
         </div>
       </div>
     </>

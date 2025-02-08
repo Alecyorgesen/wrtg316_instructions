@@ -9,11 +9,11 @@ export default function Step11() {
             <li>
               Now we will create the condition to tell our program when to stop
               multiplying the base by itself. That is the second part to add to
-              our "for()" loop. We want it to stop when our counter equals the
+              our <code>for()</code> loop. We want it to stop when our counter equals the
               number we gave as an exponent, so it will keep multiplying while
               our counter variable is less than the exponent variable. To put
               that in code, just like math, we type inside the parentheses
-              "counter &lt; exponent;", looking like:
+              <code> counter &lt; exponent;</code>, looking like:
             </li>
             <pre className="codeBlock">
               <code>for(int counter = 0; counter &lt; exponent; )&#123;</code>
@@ -21,8 +21,7 @@ export default function Step11() {
           </div>
         </div>
         <div className="col-2">
-          {/* Same pic as before */}
-          <img className="m-5" src="nano6.png" alt="nano" />
+          <img src="lessthan.png" alt="nano" />
         </div>
       </div>
     </>

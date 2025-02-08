@@ -7,12 +7,10 @@ export default function Step14() {
         <div className="col-8">
           <div className="step-container">
             <li>
-              Now we will need to return the calculated answer after the "for()"
-              loop has concluded. This will go after the &#125; of the "for()"
-              loop but before the last &#125; of your program. Use the
-              "printf();" command to tell the computer to print our final answer
-              variable for us to see. Place the following message inside the
-              parentheses of "printf()":
+              Now we will need to return the calculated answer after the <code>for()</code>
+              loop has concluded. This will go after the <code>&#125;</code> of the <code>for()</code>
+              loop but before the last <code>&#125;</code> of your program. Use the <code>printf();</code> command to tell the computer to print our final answer
+              variable for us to see. Place the following message inside the parentheses of <code>printf()</code>:
             </li>
             <pre className="codeBlock">
               <code>printf("The answer = %d\n", answer);</code>
@@ -20,7 +18,7 @@ export default function Step14() {
           </div>
         </div>
         <div className="col-2">
-          <img className="m-5" src="nano7.png" alt="nano" />
+          <img src="printanswer.png" alt="nano" />
         </div>
       </div>
     </>

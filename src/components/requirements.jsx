@@ -10,7 +10,12 @@ export default function Requirements() {
         </li>
         <li>
           <a href="https://www.linkedin.com/pulse/installing-gcc-compiler-windows-run-c-program-gitbash-david-michael/">
-            gcc compiler
+            gcc compiler (Windows)
+          </a>
+        </li>
+        <li>
+        <a href="https://cs.millersville.edu/~gzoppetti/InstallingGccMac.html"> 
+          gcc compiler (Apple, follow steps #1-2)
           </a>
         </li>
         <li>
