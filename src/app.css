@@ -39,14 +39,30 @@ body {
   margin-bottom: 50px;
 }
 
+#requirements {
+  border-top: 5px solid black;
+  margin-top: 50px;
+  padding-top: 20px;
+}
+
+#steps {
+  border-top: 5px solid black;
+  margin-top: 50px;
+  padding-top: 20px;
+}
+
 /* Remove top border from first row */
 #steps .row:first-child {
   border-top: none;
 }
 
+#steps .row:nth-child(2) {
+  border-top: none;
+}
+
 /* Add bottom border to last row */
 #steps .row:last-child {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 5px solid black;
 }
 
 /* Left column for steps */
@@ -84,6 +100,12 @@ img {
   margin-bottom: 1rem;
 }
 
+#troubleshooting {
+  border-top: 5px solid black;
+  margin-top: 50px;
+  padding-top: 20px;
+}
+
 #troubleshooting li {
   font-weight: bold;
   font-style: italic;
@@ -101,6 +123,20 @@ img {
 #troubleshooting .substep {
   margin-left: 40px;
 }
+
+#hazards {
+  border-top: 5px solid black;
+  margin-top: 50px;
+  padding-top: 20px;
+}
+
+
+#conclusion {
+  border-top: 5px solid black;
+  margin-top: 50px;
+  padding-top: 20px;
+}
+
 
 /* Responsive layout */
 @media (max-width: 768px) {
