@@ -1,3 +1,13 @@
+body {
+  font-size: 100%; /* Default browser size (typically 16px) */
+}
+
+/* Then increase the base size if needed */
+body {
+  font-size: 112.5%; /* Makes default text 18px */
+}
+
+
 /* Container styling */
 .row {
   display: flex;
