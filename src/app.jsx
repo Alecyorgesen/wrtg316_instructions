@@ -16,8 +16,8 @@ export default function App() {
       <header></header>
       <main className="background-grey">
         <div className="container bg-light">
-          <div className="row p-5 background-grey"></div>
-          <h2 className="d-flex justify-content-center m-5">
+          <img className="ccodebanner" src="ccodebanner.png" alt="header-banner"/>
+          <h2 className="d-flex justify-content-center m-5" style={{backgroundColor:"lightgray", paddingTop:"30px", paddingBottom:"30px"}}>
             Create Your Own Exponent Calculator Program
           </h2>
           <Menu />
@@ -29,7 +29,6 @@ export default function App() {
           <Hazards />
           <Conclusion />
           <Survey />
-          <div className="col-2"></div>
         </div>
         <div className="row p-5 background-grey"></div>
       </main>

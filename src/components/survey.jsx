@@ -10,7 +10,7 @@ export default function Survey() {
       </p>
 
       <p>QR code for the survey:</p>
-      <img src="qrcode.png" alt="qrcode" width={400} />
+      <img className="qrcode" src="qrcode.png" alt="qrcode" width={400} />
     </div>
   );
 }
