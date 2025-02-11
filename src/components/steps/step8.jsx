@@ -9,7 +9,7 @@ export default function Step8() {
             <li>
               Go back into the program and finish creating our exponent
               calculator. Type this prompt from earlier back into the
-              Terminal, and hit 'Return':
+              Terminal, and hit 'Return' or 'Enter':
             </li>
             <pre className="codeBlock">
               <code>nano exponentcalculator.c</code>
