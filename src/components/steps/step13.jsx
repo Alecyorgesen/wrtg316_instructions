@@ -14,7 +14,7 @@ export default function Step13() {
               <pre className="codeBlock">
                 <code>answer = answer * base;</code>
               </pre>
-              Putting that in our for loop will look like the following:
+              Write the equation into your for loop. It should look like the following:
               <pre className="codeBlock">
                 <code>
                   for(int counter = 0; counter &lt; exponent; counter++)&#123;{" "}

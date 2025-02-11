@@ -8,10 +8,9 @@ export default function WindowsTutorial() {
           <div className="step-container">
             <p className="m-5">
               (For Windows-based computers) Open Git Bash, the terminal that you will use
-              instead of Powershell, the default terminal for Windows. If you
-              have not installed Git Bash, please refer to the links above.
-              After it is installed you may press the Windows key, or click the
-              search bar at the bottom left, and type "Git Bash". Then select
+              instead of Powershell, the default terminal for Windows. Refer to the links above
+              if you have not installed Git Bash. After it is installed, press the Windows key
+              or click the search bar at the bottom left. Type "Git Bash" and select
               the Git Bash application to open the Terminal. You will use this
               Terminal to create and edit a file, as well as run a program.
             </p>

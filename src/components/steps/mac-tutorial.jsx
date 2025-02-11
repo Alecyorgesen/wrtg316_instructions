@@ -8,12 +8,10 @@ export default function MacTutorial() {
           <div className="step-container">
             <li>
               (For Apple-based computers) Hold the 'command key' and
-              press the spacebar to begin creating our mini-program. This will open a search bar to find the
-              application. We will be using Terminal. Once you have found it,
-              double-click on it. Doing so will open the application with the
-              logo circled in the image below and a small window to type into.
-              This is your computer's terminal, from which you can run commands
-              and start programs.
+              press the spacebar to begin creating our mini-program. A search bar will open to help you find the
+              application. Double-click on the Terminal application, as highlighted by the image on the right.
+              A small window will generate, allowing you to enter text. This is your computer's terminal,
+              from which you can run commands and start programs.
             </li>
             <br></br>
           </div>

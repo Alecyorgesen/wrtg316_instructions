@@ -23,8 +23,8 @@ export default function Step2() {
       </div>
       <div className="subrow">
           <div className="col-8">
-            <p>Once typed, press the "Return" key. This 
-            will open a text editor for the new file, and your terminal 
+            <p>Once typed, press the "Return" key. A text editor
+            will open for the new file, and your terminal
             should look similar to the following: </p>
           </div>
           <div className="col-2">

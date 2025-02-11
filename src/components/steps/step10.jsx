@@ -9,7 +9,7 @@ export default function Step10() {
             <li>
               To make our <code>for()</code> loop multiply the base the correct number of
               times, create a temporary variable named <code>counter</code> and start it at
-              0. We will type it inside the parentheses of <code>for()&#123;</code> to look
+              0. Type it inside the parentheses of <code>for()&#123;</code> to look
               like:
             </li>
             <pre className="codeBlock">

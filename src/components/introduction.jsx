@@ -7,7 +7,7 @@ export default function () {
       <p>
         Are you ready to create your very own computer program using c code? C
         is a general-purpose computer language that, despite its age, is very
-        commonly used.It allows you to make both simple and complex programs,
+        commonly used. It allows you to make both simple and complex programs,
         and it can be done on any computer! These instructions will walk you
         through how to make a very simple exponent calculator that any computer
         can run. These basic steps will help you get a feel for how a computer
