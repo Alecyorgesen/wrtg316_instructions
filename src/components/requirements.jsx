@@ -9,17 +9,22 @@ export default function Requirements() {
           Computer (Instructions are built for Windows or Mac operating systems)
         </li>
         <li>
+          <a href="https://learn.microsoft.com/en-us/windows/wsl/install">
+            WSL
+          </a>
+          (Windows only)
+        </li>
+        <li>
           <a href="https://www.linkedin.com/pulse/installing-gcc-compiler-windows-run-c-program-gitbash-david-michael/">
-            gcc compiler (Windows)
+            GCC compiler
           </a>
+          (Windows if using Git Bash)
         </li>
         <li>
-        <a href="https://cs.millersville.edu/~gzoppetti/InstallingGccMac.html"> 
-          gcc compiler (Apple, follow steps #1-2)
+          <a href="https://cs.millersville.edu/~gzoppetti/InstallingGccMac.html">
+            GCC compiler
           </a>
-        </li>
-        <li>
-          <a href="https://gitforwindows.org/">Git bash </a> (Windows only)
+          (Apple, follow steps #1-2)
         </li>
       </ul>
     </div>
