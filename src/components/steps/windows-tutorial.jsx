@@ -8,13 +8,13 @@ export default function WindowsTutorial() {
         <div className="col-8">
           <div className="step-container">
             <p>
-              <i>(For Windows-based computers)</i> The easiest way to set up our
-              mini program, with all the necessary tools, is to use the Windows
-              Subsystem for Linux (WSL). To start, click the search icon at the
+              <i>(For Windows-based computers)</i> Click the search icon at the
               bottom left of your screen. This will allow you to search through
               your installed programs. Type in "Powershell" and open the
-              program. If you have not yet installed WSL, please first follow
-              the instructions on the <a href="#requirements"> Requirements</a>{" "}
+              program. The easiest way to set up our mini program, with all the
+              necessary tools, is to use the Windows Subsystem for Linux
+              (WSL).If you have not yet installed WSL, please first follow the
+              instructions on the <a href="#requirements"> Requirements</a>{" "}
               page. Once this is installed, run the following command:
               <code> wsl</code>. This will open the Linux terminal. You can now
               write and compile C++ programs on your Windows computer using WSL.

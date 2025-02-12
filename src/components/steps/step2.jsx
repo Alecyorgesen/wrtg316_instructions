@@ -7,9 +7,11 @@ export default function Step2() {
         <div className="col-8">
           <div className="step-container space-y-4">
             <li>
-              From this point forward, Apple-based computers and Windows-based
-              computers will function the same. Where the cursor is blinking,
-              enter the following command:
+              <i>
+                (From this point forward, Apple-based computers and
+                Windows-based computers will function the same.)
+              </i>{" "}
+              Enter the following command where the cursor is blinking:
               <pre className="codeBlock">
                 <code>nano exponentcalculator.c</code>
               </pre>
@@ -24,9 +26,9 @@ export default function Step2() {
       <div className="subrow">
         <div className="col-8">
           <p>
-            Once typed, press the "Return" or "Enter" key. A text editor will
-            open for the new file, and your terminal should look similar to the
-            following:{" "}
+            Press the "Return" or "Enter" key once the command is typed. A text
+            editor will open for the new file, and your terminal should look
+            similar to the following:{" "}
           </p>
         </div>
         <div className="col-2">
