@@ -3,7 +3,7 @@ import React from "react";
 export default function Conclusion() {
   return (
     <div id="conclusion">
-      <h2>Conclusion:</h2>
+      <h2>Conclusion</h2>
       <p>
         Congratulations! You have now finished a fully functional C computer
         program. You should now be able to run the program from the terminal

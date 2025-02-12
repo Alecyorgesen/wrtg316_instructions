@@ -7,8 +7,8 @@ export default function Step10() {
         <div className="col-8">
           <div className="step-container">
             <li>
-              To make our <code>for()</code> loop multiply the base the correct number of
-              times, create a temporary variable named <code>counter</code> and start it at
+              Make the <code>for()</code> loop multiply the base the correct number of
+              times by creating a temporary variable named <code>counter</code> and start it at
               0. Type it inside the parentheses of <code>for()&#123;</code> to look
               like:
             </li>

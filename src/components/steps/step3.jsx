@@ -7,7 +7,7 @@ export default function Step3() {
         <div className="col-8">
           <div className="step-container">
             <li>
-              We now can type in some code to create our exponent calculator. The
+              Type in some code to create our exponent calculator. The
               first step is to signal to the computer that this is code for a program
               and not simply text. Copy the following lines and paste them into
               the nano text editor:

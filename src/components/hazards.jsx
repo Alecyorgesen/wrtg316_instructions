@@ -6,7 +6,7 @@ export default function Hazards() {
       <h2>Hazards</h2>
       <p>
         <img className="mt-4" src="caution_sticker.png" alt="Caution Image" width={100}/>
-        - The terminal can be used to access all the files on
+        The terminal can be used to access all the files on
         your computer and run many different commands that can change,
         reorganize, and even delete files and folders. While these instructions
         provide you with no commands that affect your computer’s contents or

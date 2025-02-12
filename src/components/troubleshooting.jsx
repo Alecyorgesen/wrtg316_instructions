@@ -3,7 +3,7 @@ import React from "react";
 export default function Troubleshooting() {
   return (
     <div id="troubleshooting">
-      <h2>Troubleshooting:</h2>
+      <h2>Troubleshooting</h2>
       <ol>
         <li>gcc is not working to compile my c program.</li>
         <p>
