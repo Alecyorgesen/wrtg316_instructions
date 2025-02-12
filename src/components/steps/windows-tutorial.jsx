@@ -14,9 +14,9 @@ export default function WindowsTutorial() {
               bottom left of your screen. This will allow you to search through
               your installed programs. Type in "Powershell" and open the
               program. If you have not yet installed WSL, please first follow
-              the instructions on the <a href="#requirements"> Requirements</a>
+              the instructions on the <a href="#requirements"> Requirements</a>{" "}
               page. Once this is installed, run the following command:
-              <code>wsl</code>. This will open the Linux terminal. You can now
+              <code> wsl</code>. This will open the Linux terminal. You can now
               write and compile C++ programs on your Windows computer using WSL.
             </p>
             <p>
@@ -25,10 +25,13 @@ export default function WindowsTutorial() {
               be found on the requirements page.
             </p>
           </div>
+          3.
           <img src={wsl_example2} alt="WSL" />
         </div>
         <div className="col-2">
+          1.
           <img src="windowsSearchBtn.PNG" alt="Windows Search Button" />
+          2.
           <img src="powershell.png" alt="Powershell" />
         </div>
       </div>
