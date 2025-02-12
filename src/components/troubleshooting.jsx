@@ -60,7 +60,7 @@ export default function Troubleshooting() {
         </li>
         <p>
           - After pressing Ctrl + X, ensure you press Y to confirm and then
-          Return to save.
+          Return(or Enter for windows) to save.
         </p>
         <li>
           I ran gcc exponentcalculator.c -o exponentcalculator, but I see

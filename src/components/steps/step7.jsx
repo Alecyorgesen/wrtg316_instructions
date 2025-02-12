@@ -20,11 +20,13 @@ export default function Step7() {
               <code>./exponentcalculator</code>
             </pre>
             <br></br>
-            <p>This should print out the message from Step #5 
-              and wait for an input of 2 numbers separated by a space. 
-              After you have entered 2 numbers, hit ‘Return,’ which 
-              should end the program immediately after, as  
-              this step is all the program told the computer to do so far.</p>
+            <p>
+              This should print out the message from Step #5 and wait for an
+              input of 2 numbers separated by a space. After you have entered 2
+              numbers hit ‘Return’ or 'Enter', which should end the program
+              immediately after, as this step is all the program told the
+              computer to do so far.
+            </p>
           </div>
         </div>
         <div className="col-2">

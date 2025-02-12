@@ -1,4 +1,5 @@
 import React from "react";
+import wsl_example2 from "./wsl_example2.png";
 
 export default function WindowsTutorial() {
   return (
@@ -6,19 +7,29 @@ export default function WindowsTutorial() {
       <div className="row">
         <div className="col-8">
           <div className="step-container">
-            <p className="m-5">
-              (For Windows-based computers) Open Git Bash, the terminal that you will use
-              instead of Powershell, the default terminal for Windows. Refer to the links above
-              if you have not installed Git Bash. After it is installed, press the Windows key
-              or click the search bar at the bottom left. Type "Git Bash" and select
-              the Git Bash application to open the Terminal. You will use this
-              Terminal to create and edit a file, as well as run a program.
+            <p>
+              <i>(For Windows-based computers)</i> The easiest way to set up our
+              mini program, with all the necessary tools, is to use the Windows
+              Subsystem for Linux (WSL). To start, click the search icon at the
+              bottom left of your screen. This will allow you to search through
+              your installed programs. Type in "Powershell" and open the
+              program. If you have not yet installed WSL, please first follow
+              the instructions on the <a href="#requirements"> Requirements</a>
+              page. Once this is installed, run the following command:
+              <code>wsl</code>. This will open the Linux terminal. You can now
+              write and compile C++ programs on your Windows computer using WSL.
+            </p>
+            <p>
+              If you are using Git Bash instead of WSL(not recommended), then
+              you will also need to install GCC before beginning. This can also
+              be found on the requirements page.
             </p>
           </div>
+          <img src={wsl_example2} alt="WSL" />
         </div>
         <div className="col-2">
-          <img src="gitBash.png" alt="Git Bash" />
-          <img src="terminal3.png" alt="Git Bash Terminal" />
+          <img src="windowsSearchBtn.PNG" alt="Windows Search Button" />
+          <img src="powershell.png" alt="Powershell" />
         </div>
       </div>
     </>
