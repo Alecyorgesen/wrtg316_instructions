@@ -7,7 +7,7 @@ export default function Step9() {
         <div className="col-8">
           <div className="step-container">
             <li>
-              Now that we are back into our program, we will create a loop that
+              Create a loop that
               will multiply the number we gave as the base by itself, just as exponents do in math.
               To create this, beneath our <code> printf();</code> and <code>scanf();</code> lines, we will start the beginning of our
               <code> for()</code> loop. Write this code into your file:

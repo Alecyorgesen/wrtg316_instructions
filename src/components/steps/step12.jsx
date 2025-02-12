@@ -7,7 +7,7 @@ export default function Step12() {
         <div className="col-8">
           <div className="step-container">
             <li>
-              After that condition, we will increment our counter
+              Increment the counter
               variable. This will be the third part of our <code>for()</code> loop. We want
               our counter variable to increase by one each time the loop runs.
               Type <code>counter++</code> inside the parentheses of the <code>for()</code> loop, looking like:

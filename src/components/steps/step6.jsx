@@ -8,8 +8,8 @@ export default function Step6() {
         <div className="col-8 checkpoint-content">
           <div className="step-container">
             <li>
-              "Compile" our program, which means to tell the
-              computer to prepare our new program! Press the keys in the following order in order to save all
+              "Compile" the code, which means to tell the
+              computer to prepare the new program! Press the keys in the following order in order to save all
               that we typed in nano: 
               <ol className="m-5">
                 <li> Hold the 'control' key and press 'X' </li>

@@ -7,7 +7,7 @@ export default function Step4() {
         <div className="col-8">
           <div className="step-container">
             <li>
-              We need to create some variables that will store information for
+              Create some variables that will store information for
               our program, just as they do in math. Create a variable for the
               base (main number), a variable for the exponent, and a variable
               for the final answer, set to equal the number 1. Each hold
