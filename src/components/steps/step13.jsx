@@ -7,14 +7,16 @@ export default function Step13() {
         <div className="col-8">
           <div className="step-container">
             <li>
-              Finally, we will implement the actual multiplication to happen at
-              each step of the <code>for()</code> loop inside the <code>&#123; &#125;</code> by making
-              the value of your variable answer to the answer variable
-              multiplied by your base variable. Multiplication is represented by <code>*</code> in programs, so we will write this as follows:
+              Implement the actual multiplication to happen at each step of the{" "}
+              <code>for()</code> loop inside the <code>&#123; &#125;</code> by
+              making the value of your variable answer to the answer variable
+              multiplied by your base variable. Multiplication is represented by{" "}
+              <code>*</code> in programs, so we will write this as follows:
               <pre className="codeBlock">
                 <code>answer = answer * base;</code>
               </pre>
-              Write the equation into your for loop. It should look like the following:
+              Write the equation into your for loop. It should look like the
+              following:
               <pre className="codeBlock">
                 <code>
                   for(int counter = 0; counter &lt; exponent; counter++)&#123;{" "}

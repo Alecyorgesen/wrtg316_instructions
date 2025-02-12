@@ -1,4 +1,5 @@
 import React from "react";
+import wsl_example2 from "./wsl_example2.png";
 
 export default function WindowsTutorial() {
   return (
@@ -24,11 +25,11 @@ export default function WindowsTutorial() {
               be found on the requirements page.
             </p>
           </div>
+          <img src={wsl_example2} alt="WSL" />
         </div>
         <div className="col-2">
           <img src="windowsSearchBtn.PNG" alt="Windows Search Button" />
-          <img src="" alt="Powershell" />
-          <img src="" alt="WSL" />
+          <img src="powershell.png" alt="Powershell" />
         </div>
       </div>
     </>
